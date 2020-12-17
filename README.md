@@ -108,6 +108,12 @@ Enter the role index that should automatically be given to a new member!
 \
 `3` Member
 
+```
+➕   3|                      🎁 😄
+```
+```lombok.config
+Default role for new members set as: Member
+```
 
 ---
 
@@ -133,7 +139,7 @@ Enter the role index that should be changed to another position!
 ➕   3|                      🎁 😄
 ```
 ```mysql
-CHOOSE THE DEFAULT ROLE FOR NEW MEMBERS!
+CHOOSE THE ROLE TO CHANGE ITS POSITION!
 Now, type the new index for the role!
 ```
 `0` Staff
