@@ -8,9 +8,9 @@ Automate your discord server, roles, commands, events, guild manager, musics, lo
 
 
 ### Hi, I'm Discord bot, i'd like to help your server, I have the following commands below, that's I can do!
-![enter image description here](src/main/resources/discord.svg)
+![enter image description here](discord.svg)
 \
-![enter image description here](src/main/resources/usa.svg)
+![enter image description here](usa.svg)
 
 ## I'll help you to manage your server making it easier to set members roles, permissions, get tutorials, also members can call me to play songs in audio channel, down below you'll find some of my commands & how to use them properly.
 
