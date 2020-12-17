@@ -252,3 +252,17 @@ E.g: $queue
 
 Returns an embedded message with tracks in the queue & your durations
 ```
+---
+# **`pause:`** pause the player current playing track.
+```scss
+E.g: $pause
+
+Pauses the bot player, (use play command to unpause it)
+```
+---
+# **`stop:`** stop the player & clear the tracks in the queue.
+```scss
+E.g: $stop
+
+Stops the bot player, clear all tracks
+```
