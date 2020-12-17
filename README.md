@@ -22,7 +22,7 @@ Considering your guild prefix is set as: $
 ```scss
 E.g: $help 
         
-Returns an embeded message with help info
+Returns an embedded message with help info
 ```
 ---
 
@@ -86,7 +86,7 @@ Returns a char info as the current bot prefix
 ```scss
 E.g: $setprefix !
 
-changes the bot prefix
+Changes the bot prefix
 ```
 ---
 
@@ -94,7 +94,7 @@ changes the bot prefix
 ```scss
 E.g: $autorole
 
-shows the indexes of roles to choose one as default
+Shows the indexes of roles to choose one as default
 ```
 ```mysql
 CHOOSE THE DEFAULT ROLE FOR NEW MEMBERS!
@@ -115,8 +115,9 @@ Enter the role index that should automatically be given to a new member!
 ```scss
 E.g: $moverole
 
-shows the indexes of roles to be moved to another role position
+Shows the indexes of roles to be moved to another role position
 ```
+
 ```mysql
 CHOOSE THE ROLE TO CHANGE ITS POSITION!
 Enter the role index that should be changed to another position!
@@ -163,7 +164,7 @@ Success! New roles positions:
 ```scss
 E.g: $setjoinchannel
 
-shows the indexes of channels to be the selected to announce arrivals
+Shows the indexes of channels to be the selected to announce arrivals
 ```
 ```mysql
 CHOOSE THE WELCOME CHANNEL!
@@ -192,23 +193,62 @@ Enter the channel index to announce the arrival of a new member!
 Welcome channel set to: #【👉】check-in
 ```
 
+---
+# **`delete:`** bulk deletes messages on the channel.
+```scss
+E.g: $delete 100
 
-\
-**`delete:`** bulk deletes messages on the channel.
-\
-**`join:`** call the bot to join the audio channel to play.
-\
-**`add:`** add a music track to the queue to be played.
-\
-**`play:`** play the music track / queue.
-\
-**`repeat:`** repeat the track playing after it's ending.
-\
-**`volume:`** changes the volume of the bot player.
-\
-**`skip:`** skips to the next track to be played and plays it.
-\
-**`queue:`** check the track playing and the queue of tracks to be play.
+Bulk deletes messages on the channel; max 100 per command 
+```
+---
 
 
+# **`join:`** call the bot to join the audio channel to play.
+```scss
+E.g: $join
 
+Makes the bot be in the audio channel
+```
+---
+
+# **`add:`** add a music track to the queue to be played.
+```scss
+E.g: $add Djavan - Sem Saber
+
+Searches for music to return it to the bot queue
+```
+---
+# **`play:`** play the music track / queue.
+```scss
+E.g: $play
+
+Plays the bot track queue
+```
+---
+# **`repeat:`** repeat the track playing after it's ending.
+```scss
+E.g: $repeat
+
+Repeats the current playing track
+```
+---
+# **`volume:`** changes the volume of the bot player.
+```scss
+E.g: $volume 100
+
+Changes the player volume percentage
+```
+---
+# **`skip:`** skips to the next track to be played and plays it.
+```scss
+E.g: $skip
+
+Skip the current playing track then starts the next
+```
+---
+# **`queue:`** check the track playing and the queue of tracks to be play.
+```scss
+E.g: $queue
+
+Returns an embedded message with tracks in the queue & your durations
+```
