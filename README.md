@@ -18,7 +18,7 @@ Automate your discord server, roles, commands, events, guild manager, musics, lo
 Considering your guild prefix is set as: $
 ```
 
-# **`help:`** displays this help message
+# **`help:`** displays this help message.
 ```scss
 E.g: $help 
         
