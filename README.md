@@ -2,9 +2,10 @@
 Automate your discord server, roles, commands, events, guild manager, musics, logs
 
 
-
 [![](https://img.shields.io/discord/677642178083946580?color=%23768ACF&label=Discord)](https://discord.gg/3HTqPFDBmT)
 
+
+[JOIN THE DISCORD BOT TO YOUR SERVER](https://discord.com/api/oauth2/authorize?client_id=778451003950760007&permissions=8&scope=bot)
 
 
 ### Hi, I'm Discord bot, i'd like to help your server, I have the following commands below, that's I can do!
