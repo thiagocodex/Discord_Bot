@@ -199,6 +199,39 @@ Enter the channel index to announce the arrival of a new member!
 ```lombok.config
 Welcome channel set to: #【👉】check-in
 ```
+---
+# **`setleftchannel:`** changes the left channel.
+```scss
+E.g: $setleftchannel
+
+Shows the indexes of channels to be the selected to announce member left
+```
+```mysql
+CHOOSE THE LEFT ANNOUNCER CHANNEL!
+Enter the channel index to announce the leaving of a member!
+```
+
+【🍱】CONTROL ROOM *(category)*
+\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+`0`【👉】check-in *(channel)*
+\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+`1`【👈】check-out️ *(channel)*
+\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+`2`【🌎】global ☑ *(channel)*
+\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+`3`【📻】radio-player️ *(channel)*
+
+```
+➕   0|                      🎁 😄
+```
+
+```lombok.config
+Left announce channel set to: #【👈】check-out
+```
 
 ---
 # **`delete:`** bulk deletes messages on the channel.
@@ -208,7 +241,6 @@ E.g: $delete 100
 Bulk deletes messages on the channel; max 100 per command 
 ```
 ---
-
 
 # **`join:`** call the bot to join the audio channel to play.
 ```scss
@@ -225,6 +257,7 @@ E.g: $add Djavan - Sem Saber
 Searches for music to return it to the bot queue
 ```
 ---
+
 # **`play:`** play the music track / queue.
 ```scss
 E.g: $play
@@ -237,6 +270,13 @@ Plays the bot track queue
 E.g: $repeat
 
 Repeats the current playing track
+```
+---
+# **`repeatall:`** repeat the entire playlist after it's ending.
+```scss
+E.g: $repeatall
+
+Repeats the playlist of tracks in the queue
 ```
 ---
 # **`volume:`** changes the volume of the bot player.
